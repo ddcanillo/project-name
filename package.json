@@ -9,7 +9,8 @@
     "build:commonjs": "babel src --out-dir lib",
     "clean": "rm -fR lib",
     "build": "npm run clean  && npm run build:commonjs",
-    "lint": "eslint src --ext .js"
+    "lint": "eslint src --ext .js",
+    "coverage": "jest --coverage"
   },
   "author": "",
   "license": "MIT",
