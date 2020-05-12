@@ -40,5 +40,8 @@
       "pretty-quick --staged",
       "git add"
     ]
+  },
+  "dependencies": {
+    "jest": "^26.0.1"
   }
 }
